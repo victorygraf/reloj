@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: #31BFA7;
+  font-size: 200px;
+  font-family: Arial Black, sans-serif;
+}
+
+#personalizarBtn {
+  margin-top: 10px;
+}
+
+#tamanoTexto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#fuenteTexto {
+  margin-bottom: 10px;
+}
+#personalizacion {
+  margin-top: 20px;
+}
+
+#colorPicker {
+  margin: 10px;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 10px;
+}

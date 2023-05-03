@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Reloj en tiempo real</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body onload="mostrarHora()">
+  <div id="reloj"></div>
+    <div id="personalizacion">
+      <button id="colorBtn">COLOR</button>
+      <input type="color" id="colorPicker" style="display:none">
+   <button id="personalizarBtn">FONDO</button>
+  <input type="color" id="colorFondo" style="display:none">
+  <input type="range" id="tamanoTexto" min="50" max="400" value="200">
+  <select id="fuenteTexto">
+    <option value="Arial Black">Arial Black</option>
+    <option value="Arial">Arial</option>
+    <option value="Verdana">Verdana</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Tahoma">Tahoma</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Courier New">Courier New</option>
+    <option value="Impact">Impact</option>
+    <option value="Comic Sans MS">Comic Sans MS</option>
+    <option value="Lucida Console">Lucida Console</option>
+    <option value="Palatino Linotype">Palatino Linotype</option>
+    <option value="Trebuchet MS">Trebuchet MS</option>
+    <option value="Brush Script MT">Brush Script MT</option>
+    <option value="Roboto Black">Roboto Black</option>
+    <option value="Century Gothic Bold">Century Gothic Bold</option>
+    <option value="Montserrat">Montserrat</option>
+
+
+
+  </select>
+  <script src="script.js"></script>
+</body>
+</html>
